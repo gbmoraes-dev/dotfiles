@@ -1,7 +1,8 @@
 -- Mason config
 return {
   {
-    "maosn-org/mason.nvim",
+    "mason-org/mason.nvim",
+    version = false,
     opts = {
       ensure_installed = {
         -- LSP Servers
@@ -43,7 +44,7 @@ return {
     "mason-org/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
-        "tsserver",
+        "ts_ls",
         "gopls",
         "dockerls",
         "docker_compose_language_service",
@@ -52,27 +53,6 @@ return {
         "yamlls",
       },
       automatic_installation = true,
-    },
-  },
-
-  -- Configuração para mason-tool-installer (instala automaticamente as ferramentas)
-  {
-    "WhoIsSethDaniel/mason-tool-installer.nvim",
-    opts = {
-      ensure_installed = {
-        "biome",
-        "prettier",
-        "eslint_d",
-        "goimports",
-        "gofumpt",
-        "golangci-lint",
-        "hadolint",
-        "yamllint",
-        "yamlfmt",
-        "delve",
-      },
-      auto_update = false,
-      run_on_start = true,
     },
   },
 }

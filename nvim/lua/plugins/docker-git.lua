@@ -1,8 +1,5 @@
 -- Docker and Git config
 return {
-  -- Adicionar suporte para Docker
-  { import = "lazyvim.plugins.extras.lang.docker" },
-
   {
     "neovim/nvim-lspconfig",
     opts = {
