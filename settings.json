@@ -1,0 +1,44 @@
+{
+  "theme": {
+    "mode": "system",
+    "light": "CodeSandbox",
+    "dark": "CodeSandbox"
+  },
+
+  "format_on_save": "on",
+  "ui_font_family": ".ZedMono",
+  "buffer_font_family": "JetBrains Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "tab_size": 2,
+
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "line_height": "comfortable",
+    "cursor_shape": "bar",
+    "blinking": "off",
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+
+  "git": {},
+
+  "indent_guides": {
+    "enabled": false
+  },
+
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+
+  "current_line_highlight": "none",
+  "cursor_blink": false,
+
+  "base_keymap": "Cursor",
+
+  "experimental.theme_overrides": {
+    "editor.document_highlight.read_background": "#00000000"
+  }
+}
